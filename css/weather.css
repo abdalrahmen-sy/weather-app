@@ -1,0 +1,172 @@
+@layer boodstrap, main;
+
+
+*,
+*:before,
+*:after {
+    box-sizing: border-box;
+}
+
+#navbarNavAltMarkup {
+
+    flex-wrap: nowrap;
+    justify-content: flex-end;
+    direction: ltr;
+}
+
+
+
+.navbar-expand-lg {
+    height: 138px;
+    background-color: rgb(30, 32, 43) ;
+}
+
+.container-fluid {
+    padding: 50px 0px;
+
+}
+.active{
+     border: 2px solid;
+    color: #009ad8;
+}
+
+
+.align-itemsa {
+    padding: 5px 25px;
+    border-radius: 30px;
+    color: aliceblue;
+}
+
+
+
+.logo-type {
+
+    color: aliceblue;
+}
+
+small {
+    font-size: 10px;
+}
+
+h1 {
+    display: inline-block;
+    font-size: 16px;
+}
+
+.logo-type img {
+    display: inline-block;
+    width: 30%;
+}
+
+.align-itemsa:hover {
+    border: 2px solid;
+    color: #009ad8;
+
+}
+
+.container-fluid {
+    margin: 0px 90px;
+}
+
+a {
+    text-decoration: none;
+
+}
+
+/* -----------------------------------------(S2-bg-img)-------------------- */
+.background-img {
+    min-height: 350px;
+    height: 50vh;
+    background:url(../Weather-img/banner.png) ;
+    background-repeat: no-repeat;
+    background-size: cover;
+    ;
+}
+
+.input-group button {
+    border-radius: 800px;
+}
+
+.input-group input {
+    padding: 20px 50px 20px 20px;
+}
+
+.input-group .form-control {
+    color: #7a7676;
+    box-shadow: none;
+    border-radius: 800px;
+    border: 0px;
+}
+
+.input-group {
+    padding: 70px 50px;
+}
+
+.container .box {
+    height: 50vh;
+}
+
+body {
+    background-color: rgb(30, 32, 43);
+}
+
+.form2 {
+    text-align: center;
+    background: rgb(37, 40, 54);
+
+    margin-top: 300px;
+}
+
+#button2 {
+    background-color: blue;
+    color: #000;
+}
+i{
+    border: #009ad8 solid 1px;
+border-radius: 50%;
+width: 50px;
+padding: 15px 15px;
+}
+ 
+.align-l {
+    
+      text-align: end ;
+}
+
+.col111{
+  font-size: 14px;
+  color: rgb(191, 193, 200);
+}
+#day1{
+    font-size: 18px;
+    font-family: "Roboto", "Open Sans", sans-serif;
+    font-weight: 400;
+}
+#date-temp{
+    font-family: "Roboto", "Open Sans", sans-serif;
+    font-size: 700;
+    font-size: 90px;
+}
+.store-temp{
+    font-size: 14px;
+    font-family: "Roboto", "Open Sans", sans-serif;
+    font-weight: 300;
+    color: #0f1791;
+}
+.store-temp1{
+    font-size: 14px;
+    font-family: "Roboto", "Open Sans", sans-serif;
+    font-weight: 300;
+    color: #0f1791;
+}
+.store-temp2{
+    font-size: 14px;
+    font-family: "Roboto", "Open Sans", sans-serif;
+    font-weight: 300;
+    color: #0f1791;
+}
+#jjj{
+    position: absolute;
+    top: 80px;
+    left: 85%;
+}

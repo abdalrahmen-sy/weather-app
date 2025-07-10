@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>welcome</title>
+    <link rel="stylesheet" href="css/all.min.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.6/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-4Q6Gf2aSP4eDXB8Miphtr37CMZZQ5oXLH2yaXMJ2w8e2ZtHTl7GptT4jmndRuHDT" crossorigin="anonymous">
+
+    <link rel="stylesheet" href="css/weather.css">
+    <!-- <style>
+        @import url('https://cdn.jsdelivr.net/npm/bootstrap@5.3.6/dist/css/bootstrap.min.css') layer(boodstrap);
+    </style> -->
+
+</head>
+
+<body>
+    <!-- ---------------------------------------(S1-Navbar/img)----------------------------------------------------------------- -->
+
+    <nav class="navbar navbar-expand-lg ">
+        <div class="container-fluid">
+            <div class="logo-type w-25">
+                <div class=" container ">
+                    <a class="navbar-brand" href="#">
+                        <img src="Weather-img/logo.png" alt="logo">
+                    </a>
+                    <div class=" d-inline-block">
+                        <h1>Weather</h1>
+                        <small class="d-block">tagline goes here</small>
+                    </div>
+                </div>
+            </div>
+
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup"
+                aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse w-75" id="navbarNavAltMarkup">
+                <div class="navbar-nav ">
+                    <a class=" active text-primary align-itemsa " aria-current="page" href="#">Home</a>
+                    <a class="align-itemsa nav-link" href="#">Features</a>
+                    <a class=" align-itemsa" href="#">Pricing</a>
+                    <a class=" disabled  align-itemsa" aria-disabled="true">Disabled</a>
+                </div>
+            </div>
+        </div>
+
+    </nav>
+    <!-- ----------------------------------------(S2-bg-img)--------------------------------------------------- -->
+
+    <div class="ontainer ">
+        <div class="background-img ">
+            <div class="input-group mb-3">
+                <input type="text"  id="winput" class="form-control text-light  bg-dark rounded rounded-5"
+                    placeholder="Recipient’s username" aria-label="Recipient’s username"
+                    aria-describedby="button-addon2">
+                <button class="btn btn-outline bg-primary rounded rounded-5 px-4 py-4" type="button" id="jjj">Button</button>
+            </div>
+            <div class="container ">
+                <div class="row   text-white bg-dark row-cols-3">
+                    <div class="row-cols-auto col111 col-4"> 
+                        <h1 id="nambar-day" class="d-inline-block col-10 ">name</h1>
+                        <div class=" d-inline-block  align-1">  
+                        <samp class="d-inline-flex nambar-month  "></samp> 
+                        <samp class="name-month  d-inline-block"></samp></div> </div>
+                    <div class="col111 text-center col-4"id="day2"></div>
+                    <div class="col111 text-center col-4"id="day3"></div>
+
+                </div>
+                <div class="row    box align-content-center  text-white bg-dark row-cols-1">
+                    <div class="col-4">
+                        <h4 id="day1"></h4>
+                        <h1 id="date-temp"> </h1>
+                        <div class="img-weather"></div>
+                        <samp  class="store-temp mx-2 py-2 d-block"></samp                      >
+
+                        
+
+                    </div>
+                    <div class="col-4 text-center">
+                        <div  class=" img-weather1"></div>
+                        <samp class=" d-block max-temp"></samp>
+                        <samp class=" d-block min-temp"></samp>
+                        <samp class="d-block store-temp1"></samp>
+                    </div>
+                    <div class="text-center col-4">
+                        <div class=" img-weather2"></div>
+                        <samp class="d-block max-temp1"></samp>
+                        <samp class="d-block min-temp1"></samp>
+                        <samp class="store-temp2 mx-2 py-2 d-block"></samp></div>
+
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- --------------------------------------(S3 footer)----------------------------------- -->
+    <div class="form2 row col-12 ">
+        <div class="inputEmail  col-8 w-75 ">
+            <div class="input-group mb-3">
+                <input type="text" class="form-control" placeholder="Recipient’s username"
+                    aria-label="Recipient’s username" aria-describedby="button-addon2">
+                <button class="btn btn-bg-primary" type="button" id="button2">Button</button>
+            </div>
+
+        </div>
+        <div class="col-3 align-content-center ">
+            <div class="social-links">
+                <a href="#"><i class="fa-brands fa-facebook "></i></a>
+                <a href="#"><i class="fa-brands fa-twitter"></i></a>
+                <a href="#"><i class="fa-brands fa-google-plus"></i></a>
+                <a href="#"><i class="fa-brands fa-pinterest"></i></a>
+            </div>
+        </div>
+
+    </div>
+
+
+
+
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.6/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-j1CDi7MgGQ12Z7Qab0qlWQ/Qqz24Gc6BM0thvEMVjHnfYGF0rmFCozFSxQBxwHKO"
+        crossorigin="anonymous"></script>
+    <script src="weather.js"></script>
+
+</body>
+
+</html>
